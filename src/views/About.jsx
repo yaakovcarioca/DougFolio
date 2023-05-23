@@ -37,7 +37,7 @@ const About = () => {
               user experience while writing reusable and efficient code. I
               passionately combine good design, technology, and innovation in
               all my projects, which I like to accompany from the first idea to
-              release.Currently, I'm focused on the backend development.
+              release. Currently, I'm focused on the frontend development.
             </p>
           </motion.div>
           <motion.div
