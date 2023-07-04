@@ -2,6 +2,9 @@ import React, { useContext } from "react";
 import Card from "../components/Card";
 import { ThemeContext } from "../themeProvider";
 import RadarEmpreendaSantander from "../projects/RadarEmpreendaSantander"
+import GlamouriaMake from "../projects/glamouriaMake";
+import PomodoroTimerV2 from "../projects/pomodoroTimerV2";
+import AmbWebsite from "../projects/ambWebsite";
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -17,11 +20,13 @@ const Projects = () => {
           Projects
         </h2>
         <h4 className="mt-16 text-3xl font-semibold text-blue-600">
-          What I Built
+          Some projects I've already built, participated in or maintained.
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
           <RadarEmpreendaSantander />
-          <Card />
+          <PomodoroTimerV2 />
+          <GlamouriaMake />
+          <AmbWebsite />
         </div>
         <a
           href="hello"
