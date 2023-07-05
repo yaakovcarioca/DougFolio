@@ -2,9 +2,10 @@ import React, { useContext } from "react";
 import Card from "../components/Card";
 import { ThemeContext } from "../themeProvider";
 import RadarEmpreendaSantander from "../projects/RadarEmpreendaSantander"
-import GlamouriaMake from "../projects/glamouriaMake";
-import PomodoroTimerV2 from "../projects/pomodoroTimerV2";
-import AmbWebsite from "../projects/ambWebsite";
+import GlamouriaMake from "../projects/GlamouriaMake";
+import PomodoroTimerV2 from "../projects/PomodoroTimerV2";
+import AmbWebsite from "../projects/AmbWebsite";
+import FoodExplorer from "../projects/FoodExplorer"
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -27,6 +28,7 @@ const Projects = () => {
           <PomodoroTimerV2 />
           <GlamouriaMake />
           <AmbWebsite />
+          <FoodExplorer />
         </div>
         <a
           href="hello"
