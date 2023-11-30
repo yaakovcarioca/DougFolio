@@ -11,6 +11,7 @@ export const techStack = [
   { name: "Postman", link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
   { name: "Insomnia", link: "https://insomnia.rest/images/insomnia-logo.svg" },
   { name: "Beekeeper", link: "https://www.beekeeperstudio.io/assets/img/logos/bk-logo-yellow-icon-3761c77d1abf26d329e20e3b5cf05cabfa00fb9225054be62707b0693991d380.svg" },
+  {name: "API Dog", link: "https://avatars.githubusercontent.com/u/109732933?s=200&v=4" },
 
   { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
   { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
