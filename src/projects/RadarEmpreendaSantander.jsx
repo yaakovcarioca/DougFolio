@@ -13,7 +13,7 @@ const RadarEmpreendaSantander = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
+      <a href="https://radarempreenda.com.br">
         <img
           class="rounded-t-lg w-full h-55%"
           src={imgRadarSanta}
@@ -21,7 +21,7 @@ const RadarEmpreendaSantander = () => {
         />
       </a>
       <div class="p-5">
-        <a href="#">
+        <a href="https://radarempreenda.com.br">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Radar Empreenda Santander 2020
           </h5>
@@ -30,7 +30,7 @@ const RadarEmpreendaSantander = () => {
           Project developed through The Bakery Brasil. As Frontend Developer.
         </p>
         <a
-          href="#"
+          href="hello"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           As Font-end Developer

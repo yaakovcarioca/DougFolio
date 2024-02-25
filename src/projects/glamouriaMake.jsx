@@ -13,7 +13,7 @@ const GlamouriaMake = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
+      <a href="https://glaouriamake.com.br">
         <img
           class="rounded-t-lg w-full"
           src={imgGlamouria}
@@ -21,7 +21,7 @@ const GlamouriaMake = () => {
         />
       </a>
       <div class="p-5">
-        <a href="#">
+        <a href="https://glaouriamake.com.br">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Glamouria Make E-commerce store
           </h5>
@@ -30,7 +30,7 @@ const GlamouriaMake = () => {
           I completely developed the e-commerce. Front and backend. With payment, ERP and shipping integrations.
         </p>
         <div
-          href="#"
+          href="hello"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg  focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           As Fullstack Developer

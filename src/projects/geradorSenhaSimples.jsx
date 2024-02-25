@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import imgPassGenerator from '../assets/projectsIMG/geradorsenhasimples.png'
 
-const FoodExplorer = () => {
+const passGenerator = () => {
   return (
     <motion.div
       initial={"hidden"}
@@ -13,7 +13,7 @@ const FoodExplorer = () => {
       }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
+      <a href="https://geradorsenha.douglaspeixoto.dev">
         <img
           class="rounded-t-lg w-full"
           src={imgPassGenerator}
@@ -21,7 +21,7 @@ const FoodExplorer = () => {
         />
       </a>
       <div class="p-5">
-        <a href="#">
+        <a href="https://geradorsenha.douglaspeixoto.dev">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Simple Password Generator
           </h5>
@@ -30,7 +30,7 @@ const FoodExplorer = () => {
         Simple password generator to make our work day more fast. xD
         </p>
         <div
-          href="#"
+          href="hello"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg  focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           As Web developer
@@ -52,4 +52,4 @@ const FoodExplorer = () => {
   );
 };
 
-export default FoodExplorer;
+export default passGenerator;

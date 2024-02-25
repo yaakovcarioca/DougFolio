@@ -21,7 +21,7 @@ const FoodExplorer = () => {
         />
       </a>
       <div class="p-5">
-        <a href="#">
+        <a href="hello">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Food Explorer - Delivery
           </h5>
@@ -30,7 +30,7 @@ const FoodExplorer = () => {
         Menu website with cart and delivery. Backend made in NodeJS and Frontend in ReactJS. Normal User and Admin. Payments menu with more than one option.
         </p>
         <div
-          href="#"
+          href="hello"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg  focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           As Fullstack Engineer
