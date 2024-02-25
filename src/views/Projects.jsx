@@ -6,6 +6,7 @@ import GlamouriaMake from "../projects/GlamouriaMake";
 import PomodoroTimerV2 from "../projects/PomodoroTimerV2";
 import AmbWebsite from "../projects/AmbWebsite";
 import FoodExplorer from "../projects/FoodExplorer"
+import passGenerator from "../projects/geradorSenhaSimples"
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -29,6 +30,7 @@ const Projects = () => {
           <GlamouriaMake />
           <AmbWebsite />
           <FoodExplorer />
+          <passGenerator />
         </div>
         <a
           href="hello"
