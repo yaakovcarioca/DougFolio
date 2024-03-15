@@ -11,13 +11,14 @@ export const techStack = [
   { name: "Postman", link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },
   { name: "Insomnia", link: "https://insomnia.rest/images/insomnia-logo.svg" },
   { name: "Beekeeper", link: "https://avatars.githubusercontent.com/u/53234021?s=200&v=4" },
-  {name: "API Dog", link: "https://avatars.githubusercontent.com/u/109732933?s=200&v=4" },
+  { name: "API Dog", link: "https://avatars.githubusercontent.com/u/109732933?s=200&v=4" },
 
   { name: "React Native", link: "https://pagepro.co/blog/wp-content/uploads/2020/03/react-native-logo-884x1024.png" },
   { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "CSS", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" },
 
-  { name: "MySQl", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" },
+  { name: "WordPress", link: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/WordPress_blue_logo.svg/1024px-WordPress_blue_logo.svg.png" },
+  { name: "MySQl", link: "https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png" },
   { name: "SQLite", link: "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" },
   { name: "Mongo DB", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" },
   { name: "Heroku", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-plain.svg" },
