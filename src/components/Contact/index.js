@@ -75,6 +75,12 @@ const ContactTitle = styled.div`
   color: ${({ theme }) => theme.text_primary};
 `
 
+const ContactP = styled.p`
+    font-size: 16px;
+    font-weight: 600;
+    color: ${({ theme }) => theme.text_primary};
+`
+
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
@@ -122,6 +128,7 @@ const ContactButton = styled.input`
 
 
 
+/*
 const Contact = () => {
 
   //hooks
@@ -130,7 +137,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_7urz3d2', 'service_7urz3d2', form.current, 'OpZ6ZaLUxk_UYnyvF')
       .then((result) => {
         setOpen(true);
         form.current.reset();
@@ -147,7 +154,7 @@ const Contact = () => {
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactTitle>Email Me 🚀 <br/> contact@douglaspeixoto.dev </ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
@@ -161,6 +168,25 @@ const Contact = () => {
           message="Email sent successfully!"
           severity="success"
         />
+      </Wrapper>
+    </Container>
+  )
+}
+
+export default Contact
+*/
+
+const Contact = () => {
+
+  return (
+    <Container>
+      <Wrapper>
+      <Title>Contact</Title>
+      <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+      <ContactForm>
+          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactP>contato@douglaspeixoto.dev</ContactP>
+        </ContactForm>
       </Wrapper>
     </Container>
   )
