@@ -10,7 +10,7 @@ export const Bio = {
     "I passionately combine good design, technology, and innovation in all my projects, which I like to accompany from the first idea to release. Currently, I'm focused on the frontend development.",
   github: "https://github.com/yaakovcarioca",
   resume:
-    "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
+    "#",
   linkedin: "https://www.linkedin.com/in/douglasbispop/",
   twitter: "https://twitter.com/yaakov_carioca",
   insta: "https://www.instagram.com/bulldog.dev/",
