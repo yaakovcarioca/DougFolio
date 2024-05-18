@@ -1,3 +1,10 @@
+import geradorDeSenhaImg from '../images/projectsIMG/geradorsenhasimples.png'
+import pomodoroTimerImg from '../images/projectsIMG/pomodoro-timerv2.png'
+import foodExplorerImg from '../images/projectsIMG/food-explorer.png'
+import glamouriamakeImg from '../images/projectsIMG/glamouria-make.png'
+import ambImg from '../images/projectsIMG/amb.png'
+import radarEmpreendaImg from '../images/projectsIMG/radar-empreenda-santander.jpeg'
+
 export const Bio = {
   name: "Douglas B. Peixoto",
   roles: [
@@ -478,29 +485,125 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    title: "Password Generator",
+    date: "2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Simple website to auto generate password.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      geradorDeSenhaImg,
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ES6 modules",
     ],
     category: "web app",
     github: "#",
     webapp: "#",
   },
+  {
+    id: 1,
+    title: "Pomodoro Timer",
+    date: "2023",
+    description:
+      "Simple website to control study/work hours by pomodoro mode.",
+    image:
+      pomodoroTimerImg,
+    tags: [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "ES6 modules",
+    ],
+    category: "web app",
+    github: "#",
+    webapp: "#",
+  },
+  {
+    id: 2,
+    title: "Food Explorer",
+    date: "Dez 2022 - Fev 2023",
+    description:
+      "Restaurant website with menu, admin/user dashboard, Chart, payment integration and delivery status panel",
+    image:
+      foodExplorerImg,
+    tags: [
+      "ReactJS",
+      "NodeJS",
+      "ExpressJS",
+      "BCryptJS",
+      "axios",
+      "pm2",
+      "SQLite3",
+      "JWS",
+      "others",
+    ],
+    category: "e-commerce",
+    github: "#",
+    webapp: "#",
+  },
+  {
+    id: 3,
+    title: "Glamouria Make",
+    date: "2022",
+    description:
+      "Complete E-commerce model made with Woocommerce",
+    image:
+      glamouriamakeImg,
+    tags: [
+      "WordPress",
+      "Elementor",
+      "Woocommerce",
+      "MySQL",
+      "Webhooks",
+    ],
+    category: "e-commerce",
+    github: "#",
+    webapp: "#",
+  },
+  {
+    id: 4,
+    title: "AMB",
+    date: "2023",
+    description:
+      "Worked on AMB's maintenance and content update.",
+    image:
+      ambImg,
+    tags: [
+      "WordPress",
+      "Elementor",
+      "MySQL",
+      "Webhooks",
+      "PHP",
+      "CSS",
+    ],
+    category: "web app",
+    github: "#",
+    webapp: "#",
+  },
+  {
+    id: 5,
+    title: "Radar Empreenda Santander",
+    date: "2020",
+    description:
+      "I participated in the development of the website for Santander Brasil. ",
+    image:
+      radarEmpreendaImg,
+    tags: [
+      "WordPress",
+      "Elementor",
+      "MySQL",
+      "Webhooks",
+      "PHP",
+      "CSS",
+      "JS",
+    ],
+    category: "web app",
+    github: "#",
+    webapp: "#",
+  },
+
+  /*
   {
     id: 1,
     title: "Podstream",
@@ -522,6 +625,7 @@ export const projects = [
       },
     ],
   },
+  */
 
 ];
 
