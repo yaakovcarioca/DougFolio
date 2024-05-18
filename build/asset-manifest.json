@@ -1,14 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.df184f0a.js",
+    "main.js": "/static/js/main.15a6d332.js",
+    "static/media/glamouria-make.png": "/static/media/glamouria-make.498b7ac05208a0496efe.png",
+    "static/media/amb.png": "/static/media/amb.f5bca3fe175572e8c340.png",
+    "static/media/food-explorer.png": "/static/media/food-explorer.ad2a399bb17a404cb608.png",
+    "static/media/pomodoro-timerv2.png": "/static/media/pomodoro-timerv2.16e4782ea68356509209.png",
+    "static/media/geradorsenhasimples.png": "/static/media/geradorsenhasimples.54f7b286e9cd7c09fb84.png",
     "static/media/HeroImage.jpg": "/static/media/HeroImage.723c8128389f8a3f41dc.jpg",
+    "static/media/radar-empreenda-santander.jpeg": "/static/media/radar-empreenda-santander.d644d671d291ba52b607.jpeg",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.df184f0a.js.map": "/static/js/main.df184f0a.js.map"
+    "main.15a6d332.js.map": "/static/js/main.15a6d332.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.df184f0a.js"
+    "static/js/main.15a6d332.js"
   ]
 }
