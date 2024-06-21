@@ -95,6 +95,7 @@ function Footer() {
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
+          <NavLink href='https://douglaspeixoto.dev/blog/pt-br.html'>Blog</NavLink>
         </Nav>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
@@ -104,6 +105,8 @@ function Footer() {
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Douglas Peixoto. All rights reserved.
+          <br></br>
+          <span>&#10017 Pround Jew - Ivri Anochi &#10017</span>
         </Copyright>
 
       </FooterWrapper>

@@ -29,6 +29,7 @@ const Navbar = () => {
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
           <NavLink href='#contact'>Contact</NavLink>
+          <NavLink href='https://douglaspeixoto.dev/blog/pt-br.html'>Blog</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
@@ -54,6 +55,9 @@ const Navbar = () => {
             <MobileLink href='#contact' onClick={() => {
               setIsOpen(!isOpen)
             }}>Contact</MobileLink>
+            <MobileLink href='https://douglaspeixoto.dev/blog/pt-br.html' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Blog</MobileLink>
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }
