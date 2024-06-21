@@ -105,9 +105,8 @@ function Footer() {
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Douglas Peixoto. All rights reserved.
-          <br></br>
-          <span>&#10017 Pround Jew - Ivri Anochi &#10017</span>
         </Copyright>
+        <p><span>&#10017; Pround Jew - Ivri Anochi &#10017;</span></p>
 
       </FooterWrapper>
     </FooterContainer>
